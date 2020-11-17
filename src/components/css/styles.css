@@ -5,14 +5,14 @@
 @import "./NweetFactory.css";
 @import "./Profile.css";
 
-* {
+input {
+  all: unset;
+  appearance: none;
   box-sizing: border-box;
 }
 
-input {
-  all: unset;
+* {
   box-sizing: border-box;
-  appearance: none;
 }
 
 body {
